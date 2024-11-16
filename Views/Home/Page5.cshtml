@@ -1,0 +1,336 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>November 1-2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Raleway;
+            background-color: #0b1b32;
+        }
+
+        h1 {
+            position: relative;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 50px;
+            text-transform: uppercase;
+            color: #83a6ce;
+        }
+
+        .gallery-image {
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+            .gallery-image img {
+                height: 100%;
+                width: 100%;
+                transform: scale(1.0);
+                transition: transform 0.4s ease;
+            }
+
+        .img-box {
+            box-sizing: content-box;
+            margin: 10px;
+            height: 430px;
+            width: 350px;
+            overflow: hidden;
+            display: inline-block;
+            color: white;
+            position: relative;
+            background-color: white;
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 5px;
+            left: 20px;
+            opacity: 0.0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .transparent-box {
+            height: 430px;
+            width: 350px;
+            background-color: rgba(0, 0, 0, 0);
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .img-box:hover img {
+            transform: scale(1.1);
+        }
+
+        .img-box:hover .transparent-box {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .img-box:hover .caption {
+            transform: translateY(-20px);
+            opacity: 1.0;
+            font-size: 10px;
+        }
+
+        .img-box:hover {
+            cursor: pointer;
+        }
+
+        .caption > p:nth-child(2) {
+            font-size: 0.8em;
+        }
+
+        .opacity-low {
+            opacity: 0.5;
+        }
+
+        footer {
+            background: #26415e;
+            font-size: 12px;
+            padding: 10px 20px;
+            text-align: center;
+            letter-spacing: 3px;
+            text-decoration-line: none;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 50px;
+            color: #83a6ce;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> November 1 - 2</h1>
+    <a>"November’s sky is chill and gray, Yet warmth still lingers, though it’s fled away." - Helen Hunt Jackson</a>
+    <div class="gallery-image">
+        <div class="img-box">
+            <img src="../image//82.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">6:00 AM</p>
+                    <p class="opacity-low">"November days, a quiet beauty, a gentle hush."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/83.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">6:03 AM</p>
+                    <p class="opacity-low">"Crisp air, cozy knits, and the promise of winter’s gentle embrace."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/84.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">6:05 AM</p>
+                    <p class="opacity-low">"November, a month of quiet beauty, where nature paints its final masterpiece."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/81.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">6:10 AM</p>
+                    <p class="opacity-low">"The quiet charm of November, a time for reflection and gratitude."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/88.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">10:13 AM</p>
+                    <p class="opacity-low">"Love knows no distance, hope knows no end."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/89.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">12:08 PM</p>
+                    <p class="opacity-low">"Kindness is a language the whole world understands."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/85.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">3:04 PM</p>
+                    <p class="opacity-low">"In the quiet moments, I find strength, in the chaos, I find peace."</p>
+                </div>
+            </div>
+        </div> 
+        <div class="img-box">
+            <img src="../image/86.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">3:05 PM</p>
+                    <p class="opacity-low">"Her gentle spirit, a constant comfort."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/87.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">3:05 PM</p>
+                    <p class="opacity-low">"My mom, a loving heart, a guiding light."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/90.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">10:26 PM</p>
+                    <p class="opacity-low">"Family : where life begins and love never ends."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/91.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">10:26 PM</p>
+                    <p class="opacity-low">"Blood is thicker than water, but family is thicker than blood."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/92.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">10:27 PM</p>
+                    <p class="opacity-low">"Family is the compass that guides us. They are the ones who show us the way."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/93.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 1</p>
+                    <p class="opacity-low">10:40 PM</p>
+                    <p class="opacity-low">"Family is not an important thing. It's everything."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/94.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 2 </p>
+                    <p class="opacity-low">1:11 AM</p>
+                    <p class="opacity-low">"Family isn't always blood. It's the people who love you, care for you, and accept you for who you are."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/96.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 2 </p>
+                    <p class="opacity-low">5:28 AM</p>
+                    <p class="opacity-low">"Golden hues paint the November sky."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/97.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 2</p>
+                    <p class="opacity-low">5:32 AM</p>
+                    <p class="opacity-low">"Sunset's fiery kiss, a November's grace."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/95.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 2</p>
+                    <p class="opacity-low">6:11 AM</p>
+                    <p class="opacity-low">"A random beauty, a November's sight."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/99.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 2</p>
+                    <p class="opacity-low">1:11 PM</p>
+                    <p class="opacity-low">"Love, a silent bond."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/100.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 2</p>
+                    <p class="opacity-low">1:18 PM</p>
+                    <p class="opacity-low">"Love, a guiding light."</p>
+                </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../image/98.jpg" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>November 2</p>
+                    <p class="opacity-low">5:48 PM</p>
+                    <p class="opacity-low">"Beauty of November."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a asp-action="Page3">
+            Previous
+        </a>
+        <a asp-action="Index">
+            Next
+        </a>
+    </footer>
+
+</body>
+</html>

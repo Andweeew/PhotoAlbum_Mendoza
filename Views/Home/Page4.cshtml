@@ -1,0 +1,234 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Picture's</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: #522c5d;
+        }
+
+        h1 {
+            position: relative;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 44px;
+            text-transform: uppercase;
+            color: #e3b6b1;
+        }
+
+        p {
+            position: relative;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 15px;
+            color: #e3b6b1;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 2em;
+            padding: 2em;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 10px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+
+
+        .image-container:hover .overlay {
+            opacity: 1;
+        }
+
+        footer {
+            background: #845162;
+            font-size: 12px;
+            padding: 10px 20px;
+            text-align: center;
+            letter-spacing: 3px;
+            text-decoration-line: none;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 50px;
+            color: #03122F;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> RANDOM PICTURE'S </h1>
+    <p> "Random pictures are like stardust, scattered across the canvas of life, waiting to be discovered." </p>
+    <section class="gallery">
+        <div class="image-container">
+            <img src="../image/61.jpg" alt="">
+            <div class="overlay">
+                A picture paints a thousand words, but sometimes, a random one speaks volumes.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/62.jpg" alt="">
+            <div class="overlay">
+                In the realm of randomness, beauty often hides, waiting to be discovered.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/63.jpg" alt="">
+            <div class="overlay">
+                A random picture is a portal to another world, a glimpse into the unknown.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/64.jpg" alt="">
+            <div class="overlay">
+                Sometimes, the most captivating stories are told through the lens of chance.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/65.jpg" alt="">
+            <div class="overlay">
+                A random picture is a piece of the universe, captured in a moment of time.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/66.jpg" alt="">
+            <div class="overlay">
+                A random picture can spark imagination, ignite curiosity, and inspire creativity.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/67.jpg" alt="">
+            <div class="overlay">
+                The beauty of a random picture lies in its unpredictability and surprise.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/68.jpg" alt="">
+            <div class="overlay">
+                In the chaos of randomness, order and meaning can emerge.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/69.jpg" alt="">
+            <div class="overlay">
+                A random picture can be a reminder of life's fleeting moments and eternal beauty.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/70.jpg" alt="">
+            <div class="overlay">
+                In a world full of planned images, a random picture offers a refreshing change of perspective.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/71.jpg" alt="">
+            <div class="overlay">
+                A random picture is a mystery waiting to be solved, a puzzle waiting to be pieced together.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/72.jpg" alt="">
+            <div class="overlay">
+                Sometimes, the most profound truths are hidden in the most ordinary of images.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/73.jpg" alt="">
+            <div class="overlay">
+                A random picture can evoke emotions, memories, and dreams.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/74.jpg" alt="">
+            <div class="overlay">
+                The power of a random picture lies in its ability to connect with the viewer on a personal level.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/75.jpg" alt="">
+            <div class="overlay">
+                A random picture is a window to the soul of the photographer.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/76.jpg" alt="">
+            <div class="overlay">
+                A random picture can be a source of joy, wonder, and inspiration.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/77.jpg" alt="">
+            <div class="overlay">
+                Sometimes, the most beautiful things in life are the ones we least expect.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/78.jpg" alt="">
+            <div class="overlay">
+                A random picture is a reminder that beauty can be found in the most unexpected places.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/79.jpg" alt="">
+            <div class="overlay">
+                In the end, a random picture is just a picture, but it can be so much more.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/80.jpg" alt="">
+            <div class="overlay">
+                A random picture is a chance encounter with the universe, a fleeting moment captured for eternity.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a asp-action="Page3">
+            Previous
+        </a>
+        <a asp-action="Page5">
+            Next
+        </a>
+    </footer>
+
+</body>
+</html>

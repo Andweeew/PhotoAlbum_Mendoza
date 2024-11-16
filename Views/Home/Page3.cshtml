@@ -1,0 +1,234 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hobbies / Friend's'</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: #F3DADF;
+        }
+
+        h1 {
+            position: relative;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 44px;
+            text-transform: uppercase;
+            color: #03122F;
+        }
+
+        p {
+            position: relative;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 10px;
+            color: #03122F;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 2em;
+            padding: 2em;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 10px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+
+
+        .image-container:hover .overlay {
+            opacity: 1;
+        }
+
+        footer {
+            background: #F1916D;
+            font-size: 12px;
+            padding: 10px 20px;
+            text-align: center;
+            letter-spacing: 3px;
+            text-decoration-line: none;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 50px;
+            color: #03122F;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> HOBBY / FRIEND'S </h1>
+    <p> "Hobbies are a delightful escape from the ordinary. They allow us to explore our passions and interests, fostering creativity and personal growth. When shared with friends, hobbies become even more enjoyable, creating bonds of camaraderie and shared experiences. Together, we can laugh, learn, and create lasting memories." </p>
+    <section class="gallery">
+        <div class="image-container">
+            <img src="../image/21.jpg" alt="">
+            <div class="overlay">
+                "Drumming is my therapy, my passion, my escape."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/22.jpg" alt="">
+            <div class="overlay">
+                "In the rhythm of the drums, I find my soul."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/23.jpg" alt="">
+            <div class="overlay">
+                "Every beat, a story untold."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/24.jpg" alt="">
+            <div class="overlay">
+                "The drums are my canvas, the sticks my brush."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/25.jpg" alt="">
+            <div class="overlay">
+                "Drumming is not just a hobby, it's a lifestyle."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/26.jpg" alt="">
+            <div class="overlay">
+                "The beat goes on, and so does my love for drumming."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/40.jpg" alt="">
+            <div class="overlay">
+                "In every drumbeat, I find a piece of myself."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/29.jpg" alt="">
+            <div class="overlay">
+                "Drumming: where stress meets rhythm and disappears."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/28.jpg" alt="">
+            <div class="overlay">
+                "The drums are my voice, the music is my language."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/30.jpg" alt="">
+            <div class="overlay">
+                "A drummer's heart beats to a different rhythm."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/27.jpg" alt="">
+            <div class="overlay">
+                "Lost in the groove, found in the beat."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/31.jpg" alt="">
+            <div class="overlay">
+                "A friend is someone who knows the song in your heart and can sing it back to you when you have forgotten the words."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/33.jpg" alt="">
+            <div class="overlay">
+                "A friend is someone who knows the song in your heart and can sing it back to you when you have forgotten the words."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/34.jpg" alt="">
+            <div class="overlay">
+                "Good friends are like stars. You don't always see them, but you know they're always there."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/35.jpg" alt="">
+            <div class="overlay">
+                "Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'"
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/32.jpg" alt="">
+            <div class="overlay">
+                "A friend is someone who knows the song in your heart and can sing it back to you when you have forgotten the words."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/37.jpg" alt="">
+            <div class="overlay">
+                "Running isn't just a hobby; it's a way of life."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/38.jpg" alt="">
+            <div class="overlay">
+                "In every run, I find a new piece of myself."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/39.jpg" alt="">
+            <div class="overlay">
+                "The road is my therapy, the run is my meditation."
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/36.jpg" alt="">
+            <div class="overlay">
+                "True friendship is like sound health; the value of it is seldom known until it is lost."
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a asp-action="Page2">
+            Previous
+        </a>
+        <a asp-action="Page4">
+            Next
+        </a>
+    </footer>
+
+</body>
+</html>

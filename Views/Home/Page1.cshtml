@@ -1,0 +1,222 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ANIME</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: #878683;
+        }
+
+        h1 {
+            position: relative;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 44px;
+            text-transform: uppercase;
+            color: #424242;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 2em;
+            padding: 2em;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image-container:hover .overlay {
+            opacity: 1;
+        }
+
+        footer {
+            background: #bebebe;
+            font-size: 12px;
+            padding: 10px 20px;
+            text-align: center;
+            letter-spacing: 3px;
+            text-decoration-line: none;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 50px;
+            color: #0e0101;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Anime </h1>
+    <section class="gallery">
+        <div class="image-container">
+            <img src="../image/1.jpg" alt="Goku">
+            <div class="overlay">
+                A relentless fighter with a pure heart, Goku's unwavering determination and thirst for battle drive the series' epic adventures.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/2.jpg" alt="One Punch Man">
+            <div class="overlay">
+                A hero so powerful that he can defeat any opponent with a single punch, Saitama's search for a worthy challenge leads to humorous and action-packed adventures.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/3.jpg" alt="Eren">
+            <div class="overlay">
+                A young man consumed by a desire for revenge against the Titans, Eren's unwavering determination and strategic mind drive the series' intense plot.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/4.jpg" alt="Levi">
+            <div class="overlay">
+                Humanity's Strongest Soldier, Levi's exceptional combat skills and stoic demeanor make him a formidable force against the Titans.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/5.jpg" alt="Light Yagami">
+            <div class="overlay">
+                A brilliant strategist and cunning manipulator, Lelouch uses his intelligence and unwavering resolve to overthrow the oppressive Britannian Empire.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/6.jpg" alt="Monkey D. Luffy">
+            <div class="overlay">
+                A cheerful and determined pirate captain, Luffy's infectious optimism and unwavering pursuit of freedom inspire his crew and shape the course of the Grand Line.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/7.jpg" alt="Naruto Uzumaki">
+            <div class="overlay">
+                An energetic ninja with a dream of becoming Hokage, Naruto's unwavering determination and belief in himself inspire those around him.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/8.jpg" alt="Edward Elric">
+            <div class="overlay">
+                A brilliant alchemist driven by a tragic past, Edward's relentless pursuit of restoring his brother's body leads him on a journey of self-discovery and sacrifice.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/9.jpg" alt="Ichigo Kurosaki">
+            <div class="overlay">
+                A young man with the ability to see spirits, Ichigo's journey as a Soul Reaper leads him to confront powerful enemies and unravel the mysteries of the spirit world.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/10.jpg" alt="Spike Spiegel">
+            <div class="overlay">
+                A laid-back bounty hunter with a tragic past, Spike's cool demeanor and deadly skills make him a captivating character in this space western.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/11.jpg" alt="Izuku Midoriya">
+            <div class="overlay">
+                A quirkless boy who dreams of becoming a hero. He's kind-hearted, determined, and receives the ultimate power from the greatest hero, All Might.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/12.jpg" alt="Katsuki Bakugo">
+            <div class="overlay">
+                A hot-headed and explosive character with a strong sense of pride and competitiveness. He's constantly striving to be the best.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/13.jpg" alt="Shoto Todoroki">
+            <div class="overlay">
+                A dual-wielding hero with ice and fire powers. He grapples with a troubled past and seeks to overcome his father's influence.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/14.jpg" alt="Ochaco Uraraka">
+            <div class="overlay">
+                A cheerful and optimistic girl with a gravity-manipulating quirk. She's determined to become a hero to support her family.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/15.jpg" alt="Eijiro Kirishima">
+            <div class="overlay">
+                A hard-working and loyal student who admires strength and courage. His hardening quirk makes him a formidable fighter.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/16.jpg" alt="Tanjiro Kamado">
+            <div class="overlay">
+                A kind and compassionate young man who becomes a demon slayer to avenge his family and cure his sister, Nezuko.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/17.jpg" alt="Nezuko Kamado">
+            <div class="overlay">
+                Tanjiro's younger sister who was turned into a demon. She's gentle and protective of her brother.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/18.jpg" alt="Zenitsu Agatsuma">
+            <div class="overlay">
+                A cowardly but powerful Thunder Breathing user who often panics in battle.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/19.jpg" alt="Inosuke Hashibira">
+            <div class="overlay">
+                A boar-headed demon slayer who fights with brute force and instinct. He's hot-headed and impulsive.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../image/20.jpg" alt="Giyu Tomioka">
+            <div class="overlay">
+                A stoic and skilled Water Hashira who guides Tanjiro on his journey. He's often seen as cold and distant.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a asp-action="Index">
+            Previous
+        </a>
+        <a asp-action="Page2">
+            Next
+        </a>
+    </footer>
+
+</body>
+</html>

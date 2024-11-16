@@ -1,0 +1,163 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAVORITE SONGS </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: #032F30;
+        }
+
+        h1 {
+            position: relative;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 44px;
+            text-transform: uppercase;
+            color: #6BA3BE;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 2em;
+            padding: 2em;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 15px;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .image-container:hover .overlay {
+            opacity: 1;
+        }
+
+        footer {
+            background: #031716;
+            font-size: 12px;
+            padding: 10px 20px;
+            text-align: center;
+            letter-spacing: 3px;
+            text-decoration-line: none;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 50px;
+            color: #6BA3BE;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> FAVORITE SONG'S </h1>
+    <section class="gallery">
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/3XstzgzP0rp3bzElEnRVHv?si=eef3df31d9df4baa"><img src="../image/41.jpg" alt="Slow Down - Mac Ayres"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/7q587HLz90L2PFrhKZjIYa?si=0318e343d1b9458d"><img src="../image/42.jpg" alt="Bye Bye - Mariah Carey"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/3rWDp9tBPQR9z6U5YyRSK4?si=c77f2aaaa84f4e8e"><img src="../image/43.jpg" alt="Midnight Rain - Taylor Swift"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/0ZCCbW4Aym7b5QdQUKfVdv?si=995665ed7a9c44d9"><img src="../image/44.jpg" alt="Burnout - Sugarfree"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/7cs7MLtAWvsdf3w5kBvfK2?si=cc25c039cc9f46a2"><img src="../image/45.jpg" alt="Nothing's Gonna Hurt You Baby - CAS"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/7GbAp0HKPQW7WnFJAzMoRk?si=a1734e8b7d244cbe"><img src="../image/46.jpg" alt="Through These Tears - Lany"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/5lE2EFXt4muvLFMGQg4hZN?si=3408f8c4f41d4321"><img src="../image/47.jpg" alt="Lake Street Dive - Hypotheticals"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/73jVPicY2G9YHmzgjk69ae?si=bb44aa27ef114175"><img src="../image/48.jpg" alt="The 1975 - Robbers"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/3NLrRZoMF0Lx6zTlYqeIo4?si=26ce1358d5164886"><img src="../image/49.jpg" alt="3 Doors Down - Here Without You"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe?si=72e6d1679eb7402f"><img src="../image/50.jpg" alt="Die with a Smile - Lady Gaga and Bruno Mars"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/1EKaijlcDudlSlPXNvN9cL?si=34f71fa91ed84a30"><img src="../image/51.jpg" alt="Somewhere in Brooklyn - Bruno Mars"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/1imaIe1NEAaWnLF0BY0V6F?si=4b1159ee3d214c6f"><img src="../image/52.jpg" alt="Sining - Dionela"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/2AYu4hK5FsDD7JWY3tZ2gC?si=ed6c8bef79d2424e"><img src="../image/53.jpg" alt="Tears - Dionela"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/0sqnYgWOw9DMc6jRgkcB2m?si=92c70cc38f5c4bc7"><img src="../image/54.jpg" alt="Palagi - TJ Monterde"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/2vnd3JVvcLs2LxRFwC6mKu?si=238de8c5abd34389"><img src="../image/55.jpg" alt="City Girl - Shanti Dope"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/0EA8jl8Wje9ALRKC8Qlzyt?si=f4f1b4c631d64d8e"><img src="../image/56.jpg" alt="Happy with U - Arthur Nery"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/0gATsn64GPNrXwdCnTGRVm?si=877d5b2a049a43c4"><img src="../image/57.jpg" alt="Kaleidoscope World - Parokya ni Edgar"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/58IRNGsvf5T5hPyUuMv5AF?si=911a46aa6e2c4932"><img src="../image/58.jpg" alt="Mang Jose - Parokya ni Edgar"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/2afCBiru10AFckfOa49wIa?si=eaf43220253d4dc2"><img src="../image/59.jpg" alt="You and I - One Direction"></a>
+        </div>
+        <div class="image-container">
+            <a href="https://open.spotify.com/track/0HMjXBAZmSYOTTi33WpMso?si=b647155d2fb94b18"><img src="../image/60.jpg" alt="History - One Direction"></a>
+        </div>
+    </section>
+
+    <footer>
+        <a asp-action="Page1">
+            Previous
+        </a>
+        <a asp-action="Page3">
+            Next
+        </a>
+    </footer>
+
+</body>
+</html>
